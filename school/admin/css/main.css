@@ -1,0 +1,358 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+header
+{
+	display: block;
+}
+
+nav
+{
+	text-align: center;
+}
+
+section, footer, aside, nav, article, hgroup
+{
+	display: block;
+}
+
+body
+{
+	text-align: center;
+}
+
+#big_wrapper
+{
+	border: 4px solid black;
+	width: 1000px;
+	margin: 20px auto;
+	text-align: left;
+	background-color: #EEEEEE;
+}
+
+#top_header
+{
+	text-align: center;
+	background: #E8E8E8;
+	border-bottom: 3px solid black;
+	padding: 20px;
+
+}
+#indhead
+{
+	text-align: center;
+	background: #B0B0B0;
+	border-bottom: 3px solid black;
+	padding: 20px;
+
+}
+
+#login_form
+{
+	width: 340px;	
+	margin-top:40px;
+	margin-bottom: 30px;
+	margin-left: 335px; 
+	/*border: 3px solid blue;*/
+	/*padding-left: 90px;*/
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: white;
+
+}
+
+#top_menu
+{
+	background: #B0B0B0;
+	color: white;
+	border-bottom: 3px solid black;
+
+}
+
+#top_menu li
+{
+	display:inline-block;
+	list-style:none;
+	padding: 5px;
+	font: bold 14px Tahoma;
+	background:#FFFFFF;
+	border-radius:4px;
+	margin-left: 15px;
+	/*text-decoration:none;*/
+}
+
+ul li a
+{
+	text-decoration:none;
+}
+
+ul li:hover
+{
+	background:#dedede;
+	color:#ff0000;
+}
+
+#main_section
+{
+	float:left;
+	width:700px;
+	margin:10px; /* 720px, 280 left */
+}
+
+#main_section2
+{
+	float:left;
+	width:900px;
+	margin:10px; /* 720px, 280 left */
+}
+
+
+/*#address
+{
+	background:#D8D8D8;
+	margin-top: 5px;
+	width: 650px;
+	border: 2px solid black;
+	padding: 10px;
+}
+*/
+#BoT_main
+{
+	
+	width: 840px;	
+	margin-top:20px;
+	margin-bottom: 20px;
+	margin-left: 80px; 
+	border: 0px solid red;
+
+}
+
+#add_bot
+{
+	width: 840px;	
+	margin-top:20px;
+	margin-bottom: 20px;
+	margin-left: 80px; 
+	/*border: 3px solid red;*/
+}
+
+#bot_body
+{
+	width: 360px;	
+	margin-top:20px;
+	margin-bottom: 20px;
+	margin-left: 190px; 
+	/*border: 3px solid blue;*/
+	padding-left: 90px;
+	padding-top: 30px;
+	padding-bottom: 40px;
+	background-color: white;
+}
+/*
+#Bhead
+{
+	width: 120px;	
+	height: 35px;
+	margin-left: 700px;
+	margin-top:30px;
+	padding-top: 5px;
+	padding-left: 5px;
+	border: 2px solid green;
+	/*text-align: center;*/
+}
+/*
+#add_BoT
+{
+	width: 300px;	
+	height: 200px;
+	margin-left: 290px;
+	margin-top:30px;
+	margin-bottom: 30px;
+	padding-top: 5px;
+	padding-left: 5px;
+	border: 2px solid green;
+}
+*/
+
+
+
+#result
+{
+	background:#D8D8D8;
+	margin-top: 5px;
+	margin-left: 20px;
+	width: 550px;
+	border: 2px solid black;
+	padding: 10px;
+	text-align: center;
+}
+
+
+#side_news
+{
+	float:left;
+	width: 210px;
+	margin-top: 40px;
+	padding:20px;
+	background: #F8F8F8;
+	border:2px solid black;
+}
+#side_picture
+{
+	float: left;
+	height: 200px;
+	width: 200px;
+	border: 2px solid black;
+	margin-top: 50px;
+	padding: 2px;
+}
+
+#the_footer
+{
+	clear:both;
+	text-align:center;
+	padding:20px;
+	border-top:3px solid black;
+	background-color: #B0B0B0;
+}
+
+#table1
+{
+	height: 200px;
+	width: 500px;
+	border: 1px solid black;
+	padding-left: 20px;
+	margin-left: 55px;
+
+}
+
+td
+{
+	height: 40px;
+	width: 300px;
+}
+
+th
+{
+	height: 40px;
+	width: 200px;
+}
+article
+{
+	background:#D8D8D8;
+	border:2px solid black;
+	padding: 20px;
+	margin-bottom: 15px;
+}
+
+article footer
+{
+	text-align:right;
+}
+
+#list_of_BoT
+{
+	float:left;
+	width:750px;
+	margin: 50px 0px 50px 110px; 
+	border: 2px solid black;
+}
+#list_of_BoT_name
+{
+	width:235px;
+	float:left;
+	text-align: center;
+	height: 40px;
+	border: 1px solid black;
+	margin: 5px;
+	padding-top: 3px;
+
+}
+#list_of_BoT_designation
+{
+	width:235px;
+	float:left;
+	text-align: center;		
+	height: 40px;
+	border: 1px solid black;
+	margin: 5px;
+	padding-top: 3px;
+}
+#list_of_BoT_picture
+{
+	width:230px;
+	float:left;
+	text-align: center;
+	height: 40px;
+	border: 1px solid black;
+	margin: 5px;
+	padding-top: 3px;
+}
+#academic
+{
+	float: left;	
+	padding-left: 10px;
+	width:750px;
+	margin: 50px 0px 50px 110px; 
+	border: 2px solid black;
+}
+#academic_date
+{
+	width:350px;
+	float:left;
+	text-align: center;
+	height: 40px;
+	border: 1px solid black;
+	margin: 5px;
+	padding-top: 5px;
+}
+#academic_event
+{
+	width:350px;
+	float:left;
+	text-align: center;
+	height: 40px;
+	border: 1px solid black;
+	margin: 5px;
+	padding-top: 5px;
+}
+#notice
+{
+	width:350px;
+	float:left;
+	/*text-align: center;*/
+	height: 150px;
+	border: 1px solid black;
+	margin: 5px;
+	padding-top: 5px;
+}
+#achivement
+{
+	width:700px;
+	float:left;
+	/*text-align: center;*/
+	height: 30px;
+	border: 1px solid black;
+	margin: 5px;
+	padding-top: 10px;
+}
+#contact
+{
+	width:300px;
+	float:left;
+	height: 40px;
+	margin: 5px 0px 5px 40px;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+#contact_value
+{
+	width:300px;
+	float:left;
+	height: 40px;
+	margin: 5px;
+	padding-top: 10px;
+	padding-left: 5px;
+}
